@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-telescope",
+    "description": "Tyhp type definitions for laravel/telescope 5.24.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.24.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-telescope-impl": "~5.24.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-telescope-impl"
+        }
+    }
+}
